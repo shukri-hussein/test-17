@@ -1,0 +1,39 @@
+.con1{
+ background-color: rgb(6, 105, 72);   
+ width: 250px;
+ border-radius: 10px; 
+ margin-top: 50px;
+}
+
+img{
+    width: 200px ;
+    height: 200px;
+    border-radius: 30%; 
+    padding: 20px 20px;
+}
+
+h6{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.btn{
+    background-color: rgb(170, 253, 225);
+    color: white;
+    padding: 8px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -200px;
+    margin-left: 40px;
+}
+.con1, img, .btn, h6{
+ display: flex;
+
+}
+
+.container-1{
+    display: flex;
+}
